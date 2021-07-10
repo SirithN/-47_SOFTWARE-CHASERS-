@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <h2>Donor today could be a recipient tomorrow!</h2> 
+  <h1>Register now!</h1>
+    Let’s save lives together.
+    
+    WHO estimates that a country requires blood units equivalent to 1% of its population. India has the world's largest blood shortage - with all states together, we are battling a huge shortfall of 41 million units, the demand outstripping supply by over 400%(1).
+    
+    With the recent limitations of movement due to the pandemic, blood banks in the country are facing even tougher times. It has been reported (2) that despite the massive burden of trauma and surgeries in the current situation, several hospitals in almost all states and union territories have been struggling to meet the daily requirements of blood. This disruption has impacted availability of blood for emergency surgeries, postpartum haemorrhage cases (bleeding after delivery), thalassemia, sickle-cell disease, and cancer patients.</p>
+</div>
+
